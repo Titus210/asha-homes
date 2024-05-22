@@ -1,6 +1,6 @@
 import { interiors } from '../assets/data/houses.js';
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const galleryContent = document.getElementById('gallery-content');
 
     function displayImages(images) {
@@ -14,16 +14,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    document.getElementById('show-all').addEventListener('click', function() {
+    document.getElementById('show-all').addEventListener('click', function () {
         displayImages(interiors);
     });
 
-    document.getElementById('show-seattle').addEventListener('click', function() {
+    document.getElementById('show-seattle').addEventListener('click', function () {
         const seattleImages = interiors.filter(item => item.location.includes('Seattle'));
         displayImages(seattleImages);
     });
 
-    document.getElementById('show-calorina').addEventListener('click', function() {
+    document.getElementById('show-calorina').addEventListener('click', function () {
         const calorinaImages = interiors.filter(item => item.location.includes('Calorina'));
         displayImages(calorinaImages);
     });

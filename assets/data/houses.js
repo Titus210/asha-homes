@@ -39,7 +39,7 @@ export   const interiors = [
             id: 7,
             location: "Downtown, Portland",
             category: "Living Room",
-            img: "../../images/living-room-2.jpg",b
+            img: "../../images/living-room-2.jpg",
         },
         {
             id: 8,
