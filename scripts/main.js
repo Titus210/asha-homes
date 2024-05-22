@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const galleryContent = document.getElementById('gallery-content');
 
     function displayImages(images) {
+        console.log("Hello")
         galleryContent.innerHTML = '';
         images.forEach(image => {
             const imgElement = document.createElement('img');

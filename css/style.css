@@ -276,7 +276,6 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-
 /* --------- MAIN ------------ */
 .home {
     width: 100%;
@@ -319,6 +318,7 @@ main {
     gap: 1rem;
     height:100%;
 }
+
 .gallery-content img {
     width: 100%;
     height: max;
@@ -350,7 +350,6 @@ main {
     width: 100%;
     margin: 0 auto;
 }
-
 
 .about-content {
     display: flex;
