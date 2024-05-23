@@ -33,7 +33,7 @@ export   const interiors = [
             id: 6,
             location: "Pearl District, Portland",
             category: "Bedroom",
-            img: "../../images/edroom-2.jpg",
+            img: "../../images/bedroom-2.jpg",
         },
         {
             id: 7,
@@ -111,7 +111,7 @@ export   const interiors = [
             id: 19,
             location: "Hollywood, Los Angeles",
             category: "Bathroom",
-            img: "../../images/bedroom-8.jpg",
+            img: "../../images/living-room-9.png",
         },
         {
             id: 20,
@@ -141,7 +141,7 @@ export   const interiors = [
             id: 24,
             location: "Williamsburg, New York City",
             category: "Bathroom",
-            img: "../../images/living-room-9.jpg",
+            img: "../../images/garden-2.jpg",
         },
         {
             id: 25,
