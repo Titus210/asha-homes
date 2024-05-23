@@ -11,6 +11,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
+
+     <!-- Preload JavaScript -->
+  <link rel="preload" href="../scripts/main.js" as="script" />
+  
     <script type="module" src="../scripts/main.js"></script>
     <title>Asha Homes - Gallery</title>
   </head>
@@ -19,27 +23,27 @@
       <div class="container">
         <nav>
           <div class="logo">
-            <a href="./index.html" class="logo">Asha Homes </a>
+            <a href="../index.html" class="logo" id="#home">Asha Homes </a>
           </div>
           <div class="nav-links">
-            <div class="nav-menu">
-              <i class="fas fa-bars" id="menuOpen"></i>
-              <i class="fas fa-times" id="menuClose"></i>
-            </div>
             <ul>
               <li>
-                <a href="../index.html">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="../index.html#home-gallery">Portfolio</a>
               </li>
               <li>
-                <a href="../index.html#contact">Contact</a>
+                <a href="../index.html#home-contact">Contact</a>
               </li>
               <li>
-                <a href="#portfolio">Gallery</a>
+                <a href="#gallery">Gallery</a>
               </li>
             </ul>
+          </div>
+          <div class="nav-menu">
+            <i class="fas fa-bars" id="menuOpen"></i>
+            <i class="fas fa-times" id="menuClose"></i>
           </div>
         </nav>
 
@@ -80,9 +84,10 @@
           </div>
         </div>
       </section>
-      <section class="gallery">
+      <section class="gallery" id="gallery">
         <div class="container">
           <div id="gallery-content" class="gallery-content">
+            
           </div>
         </div>
       </section>
